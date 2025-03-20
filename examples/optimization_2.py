@@ -117,7 +117,7 @@ GhAb = constraints.to_GhAb()
 GhAb
 
 
-risk_aversion = 1
+risk_aversion = 3
 
 qp = QuadraticProgram(
     P = covariance.matrix.to_numpy() * risk_aversion,
